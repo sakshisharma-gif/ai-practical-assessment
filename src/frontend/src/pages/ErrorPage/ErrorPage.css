@@ -1,0 +1,261 @@
+.error-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2rem;
+}
+
+.error-container {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  max-width: 600px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.error-illustration {
+  background: linear-gradient(45deg, #f8fafc, #f1f5f9);
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.error-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.error-content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.error-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin: 0 0 1rem 0;
+}
+
+.error-message {
+  font-size: 1.125rem;
+  color: #374151;
+  margin: 0 0 1rem 0;
+  line-height: 1.6;
+}
+
+.error-suggestion {
+  color: #6b7280;
+  margin: 0 0 2rem 0;
+  line-height: 1.5;
+}
+
+.error-details {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.375rem;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  text-align: left;
+}
+
+.error-details summary {
+  cursor: pointer;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
+
+.error-details summary:hover {
+  color: #1f2937;
+}
+
+.error-stack {
+  font-size: 0.875rem;
+  color: #4b5563;
+  line-height: 1.4;
+}
+
+.error-stack strong {
+  color: #1f2937;
+}
+
+.error-stack pre {
+  background: #f3f4f6;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  overflow-x: auto;
+  margin: 0.5rem 0 0 0;
+  font-size: 0.75rem;
+  white-space: pre-wrap;
+}
+
+.error-actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+}
+
+.primary-action {
+  background: #3b82f6;
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 2rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.primary-action:hover {
+  background: #2563eb;
+}
+
+.secondary-action {
+  background: #f3f4f6;
+  color: #374151;
+  border: 1px solid #d1d5db;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.secondary-action:hover {
+  background: #e5e7eb;
+  border-color: #9ca3af;
+}
+
+.error-help {
+  background: #f9fafb;
+  padding: 2rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.error-help h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #374151;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+.error-help p {
+  color: #6b7280;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+.error-help ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.error-help li {
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.error-help li:last-child {
+  margin-bottom: 0;
+}
+
+.error-help li:before {
+  content: '•';
+  color: #9ca3af;
+  position: absolute;
+  left: 0;
+}
+
+.help-link {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.help-link:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+  .error-page {
+    padding: 1rem;
+  }
+
+  .error-container {
+    border-radius: 0.5rem;
+  }
+
+  .error-illustration {
+    padding: 2rem 1rem;
+  }
+
+  .error-icon {
+    font-size: 3rem;
+  }
+
+  .error-content {
+    padding: 1.5rem;
+  }
+
+  .error-title {
+    font-size: 1.5rem;
+  }
+
+  .error-message {
+    font-size: 1rem;
+  }
+
+  .error-actions {
+    flex-direction: column;
+    padding: 0 1.5rem;
+  }
+
+  .primary-action,
+  .secondary-action {
+    width: 100%;
+    text-align: center;
+  }
+
+  .error-help {
+    padding: 1.5rem;
+  }
+
+  .error-stack pre {
+    font-size: 0.625rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .error-illustration {
+    padding: 1.5rem 1rem;
+  }
+
+  .error-content {
+    padding: 1rem;
+  }
+
+  .error-help {
+    padding: 1rem;
+  }
+
+  .error-title {
+    font-size: 1.25rem;
+  }
+
+  .error-actions {
+    padding: 0 1rem;
+  }
+}
