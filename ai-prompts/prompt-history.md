@@ -121,4 +121,51 @@ This document tracks all prompts provided during the development process.
 
 ---
 
+## Prompt #14
+**Date**: July 24, 2026  
+**Time**: Ui enhancement  
+**Prompt**: lets fix on UI as per design file provided and enahce UI of the system for more user interactivity
+
+**Context**: Request to update UI as per design file provided 
+
+---
+
+
+
+## Prompt #15
+**Date**: July 24, 2026  
+**Time**: Fix bugs  
+**Prompt**: lets fix on some functionality on create ticket screen fix bug for error message and update validation matrix
+
+**Context**: Request to update fix tixket create and error messages 
+
+---- 
+## Prompt #16
+**Date**: July 24, 2026  
+**Time**: Repository Migration  
+**Prompt**: I have cloned a git repo in folder ai-practical-assement move complete code in that folder
+
+**Context**: Request to move the complete codebase into a cloned git repository folder for version control and collaboration.
+
+---
+
+## Prompt #17
+**Date**: July 24, 2026  
+**Time**: Documentation Enhancement Request  
+**Prompt**: we have few feedabacks please incorporate:-Prompt history is present but lacks the iterative refinement narrative—show rejected ideas and course corrections.Debugging journey is invisible; add one documented scenario where you caught and fixed an error with AI help.Frontend testing is thorough but frontend integration with backend is untested; no end-to-end scenario visible.
+
+**Context**: Feedback request to enhance documentation with iterative development narrative, debugging journey documentation, and end-to-end testing gap analysis.
+
+---
+
+## Prompt #18
+**Date**: July 24, 2026  
+**Time**: README Update Request  
+**Prompt**: update README.md
+
+**Context**: Request to update the main README.md file to incorporate the feedback from prompt #15, including iterative refinement narrative, debugging journey, and end-to-end testing documentation.
+
+---
+
+
 *This document will be updated with each new prompt throughout the development process.*
